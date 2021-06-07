@@ -12,6 +12,8 @@ class SurveyController extends Controller
         return view('survey.show', compact('questionnaire'));
     }
 
+
+
     public function store(Questionnaire $questionnaire)
     {
        // dd(request()->all());
@@ -25,6 +27,6 @@ class SurveyController extends Controller
 
         $survey = $questionnaire->surveys()->create($data['survey']);
         $survey->responses()->createMany($data['responses']);
-        return 'Thank you!';
+        return redirect('/exit');
     }
 }

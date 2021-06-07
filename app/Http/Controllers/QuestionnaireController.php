@@ -17,6 +17,11 @@ class QuestionnaireController extends Controller
         return view('questionnaire.create');
     }
 
+    
+    public function exit() {
+        return view('survey.exit');
+    }
+    
     public function store(Questionnaire $data)
     {
         $data = request()->validate([

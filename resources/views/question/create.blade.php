@@ -65,12 +65,8 @@
                                     </div>
                             </fieldset>
                           </div>
-
                           <button type="submit" class="btn btn-primary btn-block">Save Questionnare</button>
-
                     </form>
-
-                 
                 </div>
             </div>
         </div>

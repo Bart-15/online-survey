@@ -4,6 +4,9 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <button class="btn btn-success">
+                <a style="color:#fff; text-decoration:none;" href="{{url('/questionnaires/create')}}">Create Questionnaire</a>
+            </button>
             <div class="card mt-4">
                 <div class="card-header">My Questionnaires</div>
 
